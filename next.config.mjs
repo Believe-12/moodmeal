@@ -9,6 +9,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-}
+  output: "export",
+  basePath: "/moodmeal",
+  output: 'export',
+  basePath: '/moodmeal',        // <-- название репозитория
+  assetPrefix: '/moodmeal'
+};
 
-export default nextConfig
+export default nextConfig;

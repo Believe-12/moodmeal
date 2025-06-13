@@ -4,6 +4,8 @@ import path from "path"
 
 export default defineConfig({
   base: '/moodmeal/',
+  basePath: '/moodmeal', // <--- название репозитория
+  assetPrefix: '/moodmeal',
   plugins: [react()],
   resolve: {
     alias: {
